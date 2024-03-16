@@ -64,38 +64,43 @@
         <table>
             <thead>
                 <tr>
-                    <th scope="col">Insect</th>
-                    <th scope="col">Family</th>
-                    <th scope="col">Fact</th>
+                    <th scope="col">Tag</th>
+                    <th scope="col">Use</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">Ladybug</th>
-                    <td>Coccinellidae</td>
-                    <td>Can eat more than 5,000 insects!</td>
+                    <th scope="row">table</th>
+                    <td>creates table</td>
                 </tr>
                 <tr>
-                    <th scope="row">Fruit Flies</th>
-                    <td>Drosophilidae</td>
-                    <td>First living creatures in outer space!</td>
+                    <th scope="row">thead</th>
+                    <td>table header</td>
                 </tr>
                 <tr>
-                    <th scope="row">Catepillars</th>
-                    <td>Heterobathmiidae</td>
-                    <td>Have 12 eyes!</td>
+                    <th scope="row">tbody</th>
+                    <td>main content of table</td>
+                </tr>
+                <tr>
+                    <th scope="row">tfoot</th>
+                    <td>table footer</td>
+                </tr>
+                <tr>
+                    <th scope="row">tr</th>
+                    <td>table row</td>
+                </tr>
+                <tr>
+                    <th scope="row">td</th>
+                    <td>table data, individual table cells</td>
+                </tr>
+                <tr>
+                    <th scope="row">th</th>
+                    <td>row/column header; defined using `scope` attribute</td>
                 </tr>
             </tbody>
-            <tfoot>
-                <tr>
-                    <td></td>
-                    <td>I had no ideas</td>
-                    <td>Those are neat!</td>
-                </tr>
-            </tfoot>
         </table>
         <p>
-            Tables should never be used for the layout of a page. You create tables using the `table` tag. Table headers go in `thead` tags. Main content of the table goes in `tbody` tags. If your table has a footer, it goes in a `tfoot` tag. Table rows are defined using `tr` tags and individual cells are defined using `td` tags. `th` tags signify it's a row or column header using the `scope` attribute.
+            Tables should never be used for the layout of a page. They're great for displaying table data like address books, list of products and prices, etc.
         </p>
     </body>
 </html>
